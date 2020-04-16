@@ -19,9 +19,11 @@ def call(body) {
     switch (config.type) {
       case 'info':
         log_info config.message
+	echo "infooo"
         break
       case 'warning':
         log_warning config.message
+	echo "warn"
         break
       case 'error':
         log_error config.message
