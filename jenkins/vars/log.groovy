@@ -1,4 +1,4 @@
-def info(message) {
+cddef info(message) {
     echo "INFO: ${message}"
 }
 
