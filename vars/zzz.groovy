@@ -1,7 +1,8 @@
 package net.my.jenkins.workflow
 import com.cloudbees.groovy.cps.NonCPS
-def call()
+def call(Map stageParams)
 {
-   zz= abc.xyz.ab
-    echo "${zz}"
+echo "${stageParams.aws}"
+    echo "testing jbfdbdb"
+
 }
