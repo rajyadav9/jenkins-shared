@@ -8,3 +8,8 @@ echo "${env.PROJECT_NAME}"
 echo "${stageParams.REGION}"
 """
 }
+def xyz(){
+    echo "my name is raj hahah"
+    String ab = "aaaaa"
+    bcc = "abcabcabcabc"
+}
