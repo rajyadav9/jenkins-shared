@@ -8,6 +8,7 @@ def call(Map stageParams)
 echo "abcccccc"
 echo "${env.PROJECT_NAME}" 
 echo "${stageParams.REGION}"
+echo "${env.aaa}"
 """
 }
 //def xyz(){
